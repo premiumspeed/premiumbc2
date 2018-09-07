@@ -68,7 +68,7 @@ const sql = require("sqlite");
     }
     });
 	
-	const adminprefix = "#vip";
+	const adminprefix = "#v";
 client.on('message', message => {
 	var devs = ['436960038935068672'];
   var argresult = message.content.split(` `).slice(1).join(' ');
