@@ -102,10 +102,10 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed() 
       .setColor("#000000")
       .setDescription(`
-#vipsetgame ==> لتغيرر البلايينج حك البوت
-#vipsetname ==> لتغيير اسم البوت 
-#vipsetavatar ==> لتغيير صورة البوت
-#vipsetT ==> لتغيير التويتش حك البوت
+#vsetgame ==> لتغيرر البلايينج حك البوت
+#vsetname ==> لتغيير اسم البوت 
+#vsetavatar ==> لتغيير صورة البوت
+#vsetT ==> لتغيير التويتش حك البوت
 `)
    message.author.sendEmbed(embed)
     
