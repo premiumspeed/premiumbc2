@@ -96,7 +96,7 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 
 
 client.on("message", message => {
-  if (message.content === "#viphelp") {
+  if (message.content === "#vhelp") {
 	  if (message.author.id !== '436960038935068672') return message.reply('**هاذا المر فقط لصاحب السيرفر فقط**')
  if(!message.author.id === '436960038935068672') return;
   const embed = new Discord.RichEmbed() 
